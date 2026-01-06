@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    
+    
+    
+    color: black;
+}
+
+.navlinks{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+
+/* HERO SECTION */
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("mainImage.jpg") center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+
+/* TEXT OVER IMAGE */
+.hero-content {
+    max-width: 500px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* BUTTON */
+.hero-content button {
+    padding: 12px 26px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(152, 40, 152) ;
+    color: rgb(247, 186, 247);
+    cursor: pointer;
+}
+
+.hero-content button:hover{
+    background-color:rgb(168, 31, 168);
+}
