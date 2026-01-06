@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: white;
+}
+
+.monthlyAnnualy{
+    display:flex;
+    height:60px;
+    width:250px;
+    background-color: white;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap:10px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+#monthly{
+    width:100px;
+    height:50px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 179, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#annualy{
+    width:100px;
+    height:50px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 250, 219);
+    transition: background-color 0.3s ease;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    
+    
+}
+
+.cards{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;;
+}
+
+#basic{
+    color:black;
+    font-size: larger;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#Image{
+    margin-top: 20px;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+#number{
+    font-size: xx-large;
+    font-weight: bold;
+    color:black;
+    margin-top: 20px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    color:rgb(113, 113, 113);
+}
+
+
+#signUp{
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border-style:none;
+    background-color: rgb(31, 179, 88);
+    color:rgb(164, 255, 199);
+}
