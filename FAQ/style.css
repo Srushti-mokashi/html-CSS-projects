@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, #04deb6, #92f88f);
+}
+
+
+#heading{
+   margin-top: 30px;
+   color: white;
+   font-size: 50px;
+   text-align: center;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content div{
+    width: 600px;
+    height: 60px;
+    background-color: white;
+    row-gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
